@@ -8,3 +8,8 @@
 # Подсказки:
 # --- b'class' - используйте маркировку b''
 # --- используйте списки и циклы, не дублируйте функции
+
+my_list = [b'class', b'function', b'method']
+
+for i in my_list:
+    print(type(i), i, f'символов: {len(i)}')
